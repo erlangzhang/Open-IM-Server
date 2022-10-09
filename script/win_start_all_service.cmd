@@ -3,6 +3,7 @@ cd %ROOT%\..\bin\
 start cmd /C .\open_im_api.exe -port 10002
 start cmd /C .\open_im_cms_api.exe -port 10006
 start cmd /C .\open_im_user.exe -port 10110
+start cmd /C .\open_im_real_time_comm.exe -port 11300
 start cmd /C .\open_im_friend.exe -port 10120
 start cmd /C .\open_im_group.exe -port 10150
 start cmd /C .\open_im_auth.exe -port 10160

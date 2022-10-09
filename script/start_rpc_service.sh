@@ -11,6 +11,7 @@ service_filename=(
   open_im_cms_api
   #rpc
   open_im_user
+  open_im_real_time_comm
   open_im_friend
   open_im_group
   open_im_auth
@@ -29,6 +30,7 @@ service_port_name=(
   openImCmsApiPort
   #rpc port name
   openImUserPort
+  openImRealTimeCommPort
   openImFriendPort
   openImGroupPort
   openImAuthPort
@@ -46,6 +48,7 @@ service_prometheus_port_name=(
   openImCmsApiPort
   #rpc port name
   userPrometheusPort
+  realTimeCommPrometheusPort
   friendPrometheusPort
   groupPrometheusPort
   authPrometheusPort
