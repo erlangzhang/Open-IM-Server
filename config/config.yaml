@@ -770,6 +770,9 @@ workMoment:
 
 rtc:
   signalTimeout: 35
+  liveURL: wss://www.xxxx.xx:7890
+  key: xxx
+  secret: xxx
 
 # prometheus每个服务监听的端口数量需要和rpc port保持一致
 prometheus:
